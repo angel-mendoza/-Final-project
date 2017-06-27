@@ -1,0 +1,33 @@
+{
+  "name": "final-proyect",
+  "version": "1.0.0",
+  "description": "Final project, MEAN will learn, I will not program anything else until this project ends.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angel-mendoza/-Final-project.git"
+  },
+  "author": "Angel Mendoza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angel-mendoza/-Final-project/issues"
+  },
+  "homepage": "https://github.com/angel-mendoza/-Final-project#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "jsonwebtoken": "^7.4.1",
+    "mongoose": "^4.10.8",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
