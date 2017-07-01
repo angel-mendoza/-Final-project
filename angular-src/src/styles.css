@@ -1,0 +1,236 @@
+/* You can add global styles to this file, and also import other style files */
+
+/*
+--------------------------------imputs-------------------------------- 
+*/
+.input-lg {
+   	font-size: 16px !important;	
+}
+
+
+/*
+--------------------------------icom imputs-------------------------------- 
+*/
+.inner-addon-lg { 
+    position: relative; 
+}
+.inner-addon-xs { 
+    position: relative; 
+}
+/* style icon */
+.inner-addon-lg  i {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+  font-size: 26px !important;
+}
+
+.inner-addon-xs  i {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+  font-size: 15 !important;
+}
+.inner-addon-lg  a {
+  position: absolute;
+
+}
+.inner-addon-xs  a {
+  position: absolute;
+
+}
+/* align icon */
+.left-addon  i  { left:  0px; top: 0px;}
+.right-addon  i { right: 0px; top: 0px;}
+
+.left-addon  a { 
+	right:  20px; 
+	top:4px;
+	box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16), 0 0px 0px 0 rgba(0, 0, 0, 0.12) !important;
+}
+
+/* add padding  */
+.left-addon  input, .left-addon select, .left-addon textarea  { padding-left:  40px !important; }
+.right-addon  input, .right-addon select, .right-addon textarea  { padding-right: 40px !important; }
+
+
+/*
+--------------------------------font-sise-------------------------------- 
+*/
+ .f8em {
+	font-size: 0.500em !important;
+}
+  .f9em {
+	font-size: 0.563em !important;
+}
+  .f10em {
+	font-size: 0.625em !important;
+}
+  .f11em {
+	font-size: 0.688em !important;
+}
+ .f12em {
+	font-size: 0.750em !important;
+}
+ .f13em {
+	font-size: 0.813em !important;
+}
+ .f14em {
+	font-size: 0.875em !important;
+}
+ .f15em {
+	font-size: 0.938em !important;
+}
+ .f16em {
+	font-size: 1em !important;
+}
+ .f17em {
+	font-size: 1.063em !important;
+}
+ .f18em {
+	font-size: 1.125em  !important;
+}
+ .f19em {
+	font-size: 1.188em !important;
+}
+ .f20em {
+	font-size: 1.250em !important;
+}
+ .f22em {
+	font-size: 1.375em !important;
+}
+.f24em {
+	font-size: 1.5em !important;
+}
+.f25em {
+	font-size: 1.563em !important;
+}
+.f26em {
+	font-size: 1.625em !important;
+}
+.f28em {
+  font-size: 1.750em !important;
+}
+.f30em {
+	font-size: 1.875em !important;
+}
+.f35em {
+	font-size: 2.188em !important;
+}
+ .f40em {
+	font-size: 2.500em !important;
+}
+ .f50em {
+	font-size: 3.125em !important;
+}
+.f100em {
+	font-size: 6.250em !important;
+}
+.f120em {
+	font-size: 7.500em !important;
+}
+
+/*
+--------------------------------buscador del navbar-------------------------------- 
+*/
+
+.navbar-search { 
+    position: relative; 
+}
+.navbar-search  i {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+  font-size: 15 !important;
+}
+.navbar-search button{
+	margin-left: -5px;
+    border-radius: 0px 5px 5px 0px;
+}
+.navbar-search input{
+    border-radius: 5px 0px 0px 5px;
+}
+
+
+/*
+--------------------------------botones-------------------------------- 
+*/
+
+/*
+-----------btn-post
+*/
+
+.form-group .btn-post{
+	width:100%;
+	padding: 15px;
+}
+.btn-post{
+    font-size: 1.7em;
+    background-color: #009900;
+    color: #ffffff;
+    border-radius: 0px;
+}
+.btn-post:hover, .btn-post:focus, .btn-post:active{
+  color: #ffffff;
+  background-color: #00cc00;
+  border-color: #009900;
+}
+
+/*
+------------btn action blue
+*/
+.form-group .btn-action{
+	width:100%;
+	padding: 8px 12px 7px 12px;
+}
+.form-group .btn-action-inverse{
+	width:100%;
+	padding: 8px 12px 7px 12px;
+}
+
+
+.btn-action {
+    background: #ffffff;
+    color: #2196F3;
+    border-color: #2196F3; 
+}
+.btn-action:hover, .btn-action:focus, .btn-action:active, .btn-action.active, .open .dropdown-toggle.btn-action {
+  color: #ffffff;
+  background-color: #2196F3;
+  border-color: #2196F3;
+}
+.btn-action:active, .btn-action.active, .open .dropdown-toggle.btn-action {
+  background-image: none;
+}
+.btn-action.disabled, .btn-action[disabled], fieldset[disabled] .btn-action, .btn-action.disabled:hover, .btn-action[disabled]:hover, fieldset[disabled] .btn-action:hover, .btn-action.disabled:focus, .btn-action[disabled]:focus, fieldset[disabled] .btn-action:focus, .btn-action.disabled:active, .btn-action[disabled]:active, fieldset[disabled] .btn-action:active,.btn-action.disabled.active,.btn-action[disabled].active, fieldset[disabled] .btn-action.active {
+  background-color: #FFF;
+  border-color: #2196F3;
+  color: #2196F3;
+}
+.btn-action .badge {
+  background-color: #FFF;
+  border-color: #2196F3;
+  color: #2196F3;
+}
+
+.btn-action-inverse {
+    background: #90CAF9;
+    color: #ffffff;
+    border-color: #90CAF9; 
+}
+.btn-action-inverse:hover, .btn-action-inverse:focus, .btn-action-inverse:active, .btn-action-inverse.active, .open .dropdown-toggle.btn-action-inverse {
+  color: #ffffff;
+  background-color: #42A5F5;
+  border-color: #42A5F5;
+}
+.btn-action-inverse:active, .btn-action-inverse.active, .open .dropdown-toggle.btn-action-inverse {
+  background-image: none;
+}
+.btn-action-inverse.disabled, .btn-action-inverse[disabled], fieldset[disabled] .btn-action-inverse, .btn-action-inverse.disabled:hover, .btn-action-inverse[disabled]:hover, fieldset[disabled] .btn-action-inverse:hover, .btn-action-inverse.disabled:focus, .btn-action-inverse[disabled]:focus, fieldset[disabled] .btn-action-inverse:focus, .btn-action-inverse.disabled:active, .btn-action-inverse[disabled]:active, fieldset[disabled] .btn-action-inverse:active,.btn-action-inverse.disabled.active,.btn-action-inverse[disabled].active, fieldset[disabled] .btn-action-inverse.active {
+  background-color: #42A5F5;
+  border-color: #42A5F5;
+}
+.btn-action-inverse .badge {
+  background-color: #42A5F5;
+  border-color: #42A5F5;
+}

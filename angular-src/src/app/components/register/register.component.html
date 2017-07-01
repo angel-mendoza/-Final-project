@@ -1,0 +1,42 @@
+<h2 class="page-header">Register</h2>
+<form (submit)="onRegisterSubmit()">
+	<div class="col-xs-12">
+		<div class="form-group inner-addon-lg  left-addon">
+			<i class="fa fa-user-circle-o "></i>
+			<input type="text" [(ngModel)]="name"  name="name" class="form-control input-lg" placeholder="Nombre" maxlength="50" >
+		</div>
+		
+	</div>
+	<div class="col-xs-12">
+		<div class="form-group inner-addon-lg  left-addon">
+			<i class="fa fa-address-card-o "></i>
+			<input type="text" [(ngModel)]="username" name="username" class="form-control input-lg" placeholder="Username" maxlength="50" >
+		</div>  
+	</div>
+	<div class="col-xs-12">
+		<div class="form-group inner-addon-lg  left-addon">
+			<i class="fa fa-envelope-o "></i>
+			<input type="text" [(ngModel)]="email" (change)="fnValidateEmail()" name="email" class="form-control input-lg" placeholder="Email" maxlength="50" >
+			<div class="alert alert-danger" *ngIf="!emailValidate" role="alert"> {{MsjAlert}} </div>
+		</div>  
+	</div>
+	<div class="col-xs-12">
+		<div class="form-group inner-addon-lg  left-addon">
+			<i class="fa fa-key"></i>
+			<input type="password" [(ngModel)]="password" name="password"  class="form-control input-lg" placeholder="Password"  >
+		</div>  
+	</div>
+	<div class="col-xs-12">
+		<div class="form-group inner-addon-lg  left-addon">
+			<i class="fa fa-key"></i>
+			<input type="password" [(ngModel)]="confirmPassword" (keyup)="fnComparePass()" name="confirmPassword"  class="form-control input-lg" placeholder="Confirm Password"  >
+			<div class="alert alert-danger" *ngIf="!passValidate" role="alert"> {{MsjAlertPass}} </div>
+		</div>  
+	</div>
+	<div class="col-xs-3 pull-right">
+		<div class="form-group">
+			<button type="submit" class="btn btn-post" value="Submit"><i class="fa fa-floppy-o"></i> Guardar</button>
+		</div>  
+	</div>
+</form>
+<!-- peliculasmega.info -->
